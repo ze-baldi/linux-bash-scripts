@@ -18,7 +18,7 @@ trap 'log ERROR "Failure at line $LINENO: \"$BASH_COMMAND\" (exit $?)"' ERR
 
 # --- Configuration ---
 
-LOG_DIR="${LOG_DIR:-/var/log/ssh_activity}"  # LOG_DIR="$HOME/cloud-tech/linux/logs/ssh_activity"
+LOG_DIR="${LOG_DIR:-/var/log/ssh_activity}" 
 LOG_FILE="${LOG_DIR}/ssh_activity_$(date +'%F').log"
 LOG_RETENTION_DAYS=30
 

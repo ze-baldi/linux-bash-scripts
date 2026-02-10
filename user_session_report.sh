@@ -18,7 +18,7 @@ trap 'log ERROR "Failure at line $LINENO: \"$BASH_COMMAND\" (exit $?)"' ERR
 
 # --- Configuration ---
 
-LOG_DIR="${LOG_DIR:-"/var/log/user_sessions"}"  # LOG_DIR="$HOME/cloud-tech/linux/logs/user_sessions"
+LOG_DIR="${LOG_DIR:-"/var/log/user_sessions"}" 
 LOG_FILE="${LOG_DIR}/user_sessions_$(date +'%F').log"
 LOG_RETENTION_DAYS=30
 

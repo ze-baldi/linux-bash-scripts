@@ -18,7 +18,7 @@ trap 'log ERROR "Failure at line $LINENO: \"$BASH_COMMAND\" (exit $?)"' ERR
 
 # --- Configuration ---
 
-LOG_DIR="${LOG_DIR:-"/var/log/system_health"}"  # LOG_DIR="$HOME/cloud-tech/linux/logs/system_health"
+LOG_DIR="${LOG_DIR:-"/var/log/system_health"}" 
 LOG_FILE="${LOG_DIR}/system_health_$(date +'%F').log"
 LOG_RETENTION_DAYS=30
 
