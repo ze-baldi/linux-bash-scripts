@@ -3,7 +3,7 @@
 # ssh_log_analyzer.sh — Collects and logs SSH login activity summary.
 #
 # Usage:
-#   sudo ./ssh_log.sh              # Default: logs to /var/log/system_health/
+#   sudo ./ssh_log_analyzer.sh              # Default: logs to /var/log/system_health/
 #   LOG_DIR="/path" ./system_health_check.sh   # Unprivileged example
 # Logs:
 #   ${LOG_DIR}/system_health_<YYYY-MM-DD>.log
